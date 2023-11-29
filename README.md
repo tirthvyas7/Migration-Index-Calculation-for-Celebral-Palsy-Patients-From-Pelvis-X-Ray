@@ -16,6 +16,6 @@ The Computer Vision techniques used in this code are as follows:
 2. On pressing ENTER one more popup will show which will ask the doctor to crop Acetabulum and Femoral Head in one frame of whichever hip he wants for calculation of **A**.
 3. One more popup will show the possible corners for the calculation of **A**, doctor has to choose the most preferable corner from outer side of Femoral Head and Acetabulum by single clicking on that corner point. **A** value will be calculated as per selection of doctor.
 4. The next step is to crop Femoural Head of doctor's choice from the Image for **B** value calculation. On doing this, the maximum area bounding box will be made around Femoral Head and **B** value will be calculated.
-5. At the end the Caolculated Migration index can be seen on the terminal window.
+5. At the end the Calculated Migration index can be seen on the terminal window.
 
 
