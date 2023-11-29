@@ -15,7 +15,7 @@ def click_event(event, x, y, flags, params):
         xcord.append(int(x)) 
 
 cv2.namedWindow("Original Image", cv2.WINDOW_NORMAL)    # Create window with freedom of dimensions
-im = cv2.imread("/home/tirth/IIITDMK/Sem 5/MIA/Dataset/image1(2).jpg")                    # Read image
+im = cv2.imread("image1(2).jpg")                    # Read image
 imS = cv2.resize(im,(1046,1080))                # Resize image
 cv2.imshow("Original Image", imS)                       # Show image
 cv2.waitKey(0)    
